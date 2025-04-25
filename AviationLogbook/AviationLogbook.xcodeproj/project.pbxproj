@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F91ECAC12CF5012400660E9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F91ECAA82CF5012300660E9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F91ECAAF2CF5012300660E9E;
+			remoteInfo = AviationLogbook;
+		};
+		F91ECACB2CF5012400660E9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F91ECAA82CF5012300660E9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F91ECAAF2CF5012300660E9E;
+			remoteInfo = AviationLogbook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F91ECAB02CF5012300660E9E /* AviationLogbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AviationLogbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91ECAC02CF5012400660E9E /* AviationLogbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AviationLogbookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F91ECACA2CF5012400660E9E /* AviationLogbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AviationLogbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F9B78C662D00E8E300701CD2 /* Exceptions for "AviationLogbookTests" folder in "AviationLogbook" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				route.gpx,
+			);
+			target = F91ECAAF2CF5012300660E9E /* AviationLogbook */;
+		};
+		F9B78C672D00E8E300701CD2 /* Exceptions for "AviationLogbookTests" folder in "AviationLogbookTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				route.gpx,
+			);
+			target = F91ECABF2CF5012400660E9E /* AviationLogbookTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F91ECAB22CF5012300660E9E /* AviationLogbook */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AviationLogbook;
+			sourceTree = "<group>";
+		};
+		F91ECAC32CF5012400660E9E /* AviationLogbookTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F9B78C662D00E8E300701CD2 /* Exceptions for "AviationLogbookTests" folder in "AviationLogbook" target */,
+				F9B78C672D00E8E300701CD2 /* Exceptions for "AviationLogbookTests" folder in "AviationLogbookTests" target */,
+			);
+			path = AviationLogbookTests;
+			sourceTree = "<group>";
+		};
+		F91ECACD2CF5012400660E9E /* AviationLogbookUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AviationLogbookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F91ECAAD2CF5012300660E9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91ECABD2CF5012400660E9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91ECAC72CF5012400660E9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F91ECAA72CF5012300660E9E = {
+			isa = PBXGroup;
+			children = (
+				F91ECAB22CF5012300660E9E /* AviationLogbook */,
+				F91ECAC32CF5012400660E9E /* AviationLogbookTests */,
+				F91ECACD2CF5012400660E9E /* AviationLogbookUITests */,
+				F91ECAB12CF5012300660E9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F91ECAB12CF5012300660E9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F91ECAB02CF5012300660E9E /* AviationLogbook.app */,
+				F91ECAC02CF5012400660E9E /* AviationLogbookTests.xctest */,
+				F91ECACA2CF5012400660E9E /* AviationLogbookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F91ECAAF2CF5012300660E9E /* AviationLogbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F91ECAD42CF5012400660E9E /* Build configuration list for PBXNativeTarget "AviationLogbook" */;
+			buildPhases = (
+				F91ECAAC2CF5012300660E9E /* Sources */,
+				F91ECAAD2CF5012300660E9E /* Frameworks */,
+				F91ECAAE2CF5012300660E9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F91ECAB22CF5012300660E9E /* AviationLogbook */,
+			);
+			name = AviationLogbook;
+			packageProductDependencies = (
+			);
+			productName = AviationLogbook;
+			productReference = F91ECAB02CF5012300660E9E /* AviationLogbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F91ECABF2CF5012400660E9E /* AviationLogbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F91ECAD72CF5012400660E9E /* Build configuration list for PBXNativeTarget "AviationLogbookTests" */;
+			buildPhases = (
+				F91ECABC2CF5012400660E9E /* Sources */,
+				F91ECABD2CF5012400660E9E /* Frameworks */,
+				F91ECABE2CF5012400660E9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F91ECAC22CF5012400660E9E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F91ECAC32CF5012400660E9E /* AviationLogbookTests */,
+			);
+			name = AviationLogbookTests;
+			packageProductDependencies = (
+			);
+			productName = AviationLogbookTests;
+			productReference = F91ECAC02CF5012400660E9E /* AviationLogbookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F91ECAC92CF5012400660E9E /* AviationLogbookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F91ECADA2CF5012400660E9E /* Build configuration list for PBXNativeTarget "AviationLogbookUITests" */;
+			buildPhases = (
+				F91ECAC62CF5012400660E9E /* Sources */,
+				F91ECAC72CF5012400660E9E /* Frameworks */,
+				F91ECAC82CF5012400660E9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F91ECACC2CF5012400660E9E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F91ECACD2CF5012400660E9E /* AviationLogbookUITests */,
+			);
+			name = AviationLogbookUITests;
+			packageProductDependencies = (
+			);
+			productName = AviationLogbookUITests;
+			productReference = F91ECACA2CF5012400660E9E /* AviationLogbookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F91ECAA82CF5012300660E9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					F91ECAAF2CF5012300660E9E = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					F91ECABF2CF5012400660E9E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = F91ECAAF2CF5012300660E9E;
+					};
+					F91ECAC92CF5012400660E9E = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = F91ECAAF2CF5012300660E9E;
+					};
+				};
+			};
+			buildConfigurationList = F91ECAAB2CF5012300660E9E /* Build configuration list for PBXProject "AviationLogbook" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F91ECAA72CF5012300660E9E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F91ECAB12CF5012300660E9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F91ECAAF2CF5012300660E9E /* AviationLogbook */,
+				F91ECABF2CF5012400660E9E /* AviationLogbookTests */,
+				F91ECAC92CF5012400660E9E /* AviationLogbookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F91ECAAE2CF5012300660E9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91ECABE2CF5012400660E9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91ECAC82CF5012400660E9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F91ECAAC2CF5012300660E9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91ECABC2CF5012400660E9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F91ECAC62CF5012400660E9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F91ECAC22CF5012400660E9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F91ECAAF2CF5012300660E9E /* AviationLogbook */;
+			targetProxy = F91ECAC12CF5012400660E9E /* PBXContainerItemProxy */;
+		};
+		F91ECACC2CF5012400660E9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F91ECAAF2CF5012300660E9E /* AviationLogbook */;
+			targetProxy = F91ECACB2CF5012400660E9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F91ECAD22CF5012400660E9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F91ECAD32CF5012400660E9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F91ECAD52CF5012400660E9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AviationLogbook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KaveeshPassari.AviationLogbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F91ECAD62CF5012400660E9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AviationLogbook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KaveeshPassari.AviationLogbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F91ECAD82CF5012400660E9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KaveeshPassari.AviationLogbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AviationLogbook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AviationLogbook";
+			};
+			name = Debug;
+		};
+		F91ECAD92CF5012400660E9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KaveeshPassari.AviationLogbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AviationLogbook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AviationLogbook";
+			};
+			name = Release;
+		};
+		F91ECADB2CF5012400660E9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KaveeshPassari.AviationLogbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AviationLogbook;
+			};
+			name = Debug;
+		};
+		F91ECADC2CF5012400660E9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KaveeshPassari.AviationLogbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AviationLogbook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F91ECAAB2CF5012300660E9E /* Build configuration list for PBXProject "AviationLogbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91ECAD22CF5012400660E9E /* Debug */,
+				F91ECAD32CF5012400660E9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F91ECAD42CF5012400660E9E /* Build configuration list for PBXNativeTarget "AviationLogbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91ECAD52CF5012400660E9E /* Debug */,
+				F91ECAD62CF5012400660E9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F91ECAD72CF5012400660E9E /* Build configuration list for PBXNativeTarget "AviationLogbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91ECAD82CF5012400660E9E /* Debug */,
+				F91ECAD92CF5012400660E9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F91ECADA2CF5012400660E9E /* Build configuration list for PBXNativeTarget "AviationLogbookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F91ECADB2CF5012400660E9E /* Debug */,
+				F91ECADC2CF5012400660E9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F91ECAA82CF5012300660E9E /* Project object */;
+}
